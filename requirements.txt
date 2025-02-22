@@ -14,7 +14,7 @@ shapely
 matplotlib
 tensorflow
 streamlit_folium
-json
+# json
 folium
 scipy
 cartopy
