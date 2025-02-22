@@ -16,7 +16,6 @@ from streamlit_folium import st_folium
 import json
 import folium
 from geemap import geojson_to_ee, ee_to_geojson
-from google.oauth2.credentials import Credentials
 from matplotlib.colors import LinearSegmentedColormap
 # Load credentials from local JSON file
 with open("credentialsgee.json", "r") as f:
