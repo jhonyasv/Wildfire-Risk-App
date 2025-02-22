@@ -4,14 +4,14 @@ owslib
 streamlit
 geemap
 earthengine-api
-xarray
-keras
-bottleneck
-numpy
-shapely
-matplotlib
-# tensorflow==2.18.0
-streamlit_folium
-folium
-scipy
-# cartopy
+# xarray
+# keras
+# bottleneck
+# numpy
+# shapely
+# matplotlib
+# # tensorflow==2.18.0
+# streamlit_folium
+# folium
+# scipy
+# # cartopy
