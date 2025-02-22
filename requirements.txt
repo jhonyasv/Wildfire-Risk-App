@@ -7,7 +7,7 @@ geemap
 ee
 xarray
 keras
-math
+# math
 bottleneck
 numpy
 shapely
