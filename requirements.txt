@@ -3,17 +3,15 @@ leafmap
 owslib
 streamlit
 geemap
-ee
+earthengine-api
 xarray
 keras
-# math
 bottleneck
 numpy
 shapely
 matplotlib
-tensorflow
+tensorflow==2.18.0
 streamlit_folium
-# json
 folium
 scipy
 cartopy
