@@ -263,7 +263,6 @@ def predict_fire_risk(date, geojson):
             scale=scale_value,  # Adjust as necessary
             geometry=area
         )
-        st.write("Dynamic obtained!")
     except Exception as e:
         print(f"Failed to process: {e}")
     #STATIC BANDS
