@@ -139,8 +139,6 @@ def overlay_xarray_on_map(data_array):
     # Convert Xarray DataArray to a NumPy array
     array = np.flipud(data_array.values.astype(np.float64))
     lon, lat = np.meshgrid(data_array.lon.values.astype(np.float64), data_array.lat.values.astype(np.float64))
-    st.write(f"lon: {lon}")
-    st.write(f"lat: {lat}")
     # Resample the image to match the correct aspect ratio
     # resized_array = zoom(array, (lat_pixels / array.shape[0], lon_pixels / array.shape[1]))
     riskmap = cmap(array)
