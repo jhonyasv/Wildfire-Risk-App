@@ -47,7 +47,7 @@ def xarray_to_colormap(data_array):
 
 import streamlit as st
 import folium
-import cartopy
+# import cartopy
 import numpy as np
 import xarray as xr
 import matplotlib.pyplot as plt
@@ -55,8 +55,8 @@ from streamlit_folium import st_folium
 from folium.plugins import Draw
 from matplotlib.colors import LinearSegmentedColormap
 from scipy.ndimage import zoom
-from cartopy.img_transform import warp_array
-import cartopy.crs as ccrs
+# from cartopy.img_transform import warp_array
+# import cartopy.crs as ccrs
 import matplotlib.cm
 
 # Define color palette (Green → Yellow → Orange → Red)
