@@ -314,5 +314,4 @@ if st.button("Predict Wildfire Risk"):
         st.session_state.fire_risk_map = predict_fire_risk(date, st.session_state.geojson, model_choice, prepare_data)
 
 if st.session_state.fire_risk_map is not None:
-    st.subheader(f"📍 Wildfire Risk Map with {model_choice}")
     overlay_xarray_on_map(st.session_state.fire_risk_map)
