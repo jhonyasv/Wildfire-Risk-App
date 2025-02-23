@@ -17,4 +17,4 @@ scipy
 cartopy
 xee
 joblib
-sklearn
+scikit-learn
