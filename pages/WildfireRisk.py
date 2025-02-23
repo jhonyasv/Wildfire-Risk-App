@@ -10,7 +10,6 @@ from tensorflow.keras.models import load_model
 import streamlit as st
 from streamlit_folium import st_folium
 import json
-import sklearn
 import joblib
 import folium
 from google.oauth2.credentials import Credentials
