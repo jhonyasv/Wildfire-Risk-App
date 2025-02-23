@@ -16,8 +16,8 @@ sidebar_info = """
 
 st.sidebar.title("Thesis Overview")
 st.sidebar.info(sidebar_info)
-logo = "https://source.unsplash.com/featured/?wildfire"
-st.sidebar.image(logo)
+# logo = "https://source.unsplash.com/featured/?wildfire"
+# st.sidebar.image(logo)
 
 # Main page title and introduction
 st.title("Wildfire Risk Prediction Thesis")
