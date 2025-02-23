@@ -104,6 +104,7 @@ def overlay_xarray_on_map(data_array):
     ax.yaxis.set_major_formatter(plt.FuncFormatter(lambda y, _: f"{y:.1f}°"))
     plt.xlabel("Longitude")
     plt.ylabel("Latitude")
+    st.subheader(f"📍 Wildfire Risk Map with {model_choice}")
     return st.pyplot(fig)
 
 def merge_data(ds_dyn, ds_static):
