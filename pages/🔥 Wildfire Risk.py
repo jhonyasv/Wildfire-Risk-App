@@ -278,7 +278,7 @@ st.title("🔥 Wildfire Risk Prediction App")
 date = st.date_input("Select a Date", max_value=max_date)
 
 # Model selection
-model_choice = st.selectbox("Select a Model", options=["LSTM", "CNN"])
+model_choice = st.selectbox("Select a Model", options=["LSTM"])
 
 # Load the corresponding model and set the appropriate data-preparation function
 # if model_choice == "RF":
