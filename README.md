@@ -53,12 +53,19 @@ Wildfires are a growing threat to ecosystems, communities, and infrastructure wo
    ## Project Structure 
    ``` Wildfire-Risk-App/```
    ```├── app.py # Main Streamlit app entry point ```
+
    ```├── pages/ # Additional pages for different aspects of the project ```
+
    ```│ ├── WildfireRisk.py # Wildfire risk prediction page ```
+
    ```│ └── ... # Other related pages ```
+
    ```├── models/ # Folder containing saved models (tracked via Git LFS) ```
+
    ```├── README.md # This file ```
+   
    ```├── requirements.txt # List of Python dependencies ```
+
    ```└── assets/ # Images and additional resources```
    ## Git LFS 
    Since some model files exceed 100 MB, **Git Large File Storage (LFS)** is used to manage these files. If you encounter issues when pushing large files, please refer to the [Git LFS documentation](https://git-lfs.github.com). 
