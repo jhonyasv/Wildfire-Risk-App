@@ -217,7 +217,7 @@ def predict_fire_risk(date, geojson, model_choice, prepare_data):
         patches = patches.reshape(-1, patch_size, patch_size, array_data.shape[2])
 
         # Step 3: Perform batch predictions
-        batch_size = 128
+        batch_size = 512
         num_patches = patches.shape[0]
 
         for batch_start in range(0, num_patches, batch_size):
