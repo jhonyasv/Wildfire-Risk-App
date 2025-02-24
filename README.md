@@ -51,15 +51,7 @@ Wildfires are a growing threat to ecosystems, communities, and infrastructure wo
    - Click on the "Predict Wildfire Risk" button to run the prediction model. 
    - The app will display the predicted wildfire risk map based on your selection. 
    ## Project Structure 
-   ``` Wildfire-Risk-App/ ```
-   ├── app.py # Main Streamlit app entry point 
-   ├── pages/ # Additional pages for different aspects of the project 
-   │ ├── WildfireRisk.py # Wildfire risk prediction page 
-   │ └── ... # Other related pages 
-   ├── models/ # Folder containing saved models (tracked via Git LFS) 
-   ├── README.md # This file 
-   ├── requirements.txt # List of Python dependencies 
-   └── assets/ # Images and additional resources
+   ```Wildfire-Risk-App/ ├── app.py # Main Streamlit app entry point ├── pages/ # Additional pages for different aspects of the project │ ├── WildfireRisk.py # Wildfire risk prediction page │ └── ... # Other related pages ├── models/ # Folder containing saved models (tracked via Git LFS) ├── README.md # This file ├── requirements.txt # List of Python dependencies └── assets/ # Images and additional resources```
    ## Git LFS 
    Since some model files exceed 100 MB, **Git Large File Storage (LFS)** is used to manage these files. If you encounter issues when pushing large files, please refer to the [Git LFS documentation](https://git-lfs.github.com). 
    ## Contributing 
@@ -67,9 +59,9 @@ Wildfires are a growing threat to ecosystems, communities, and infrastructure wo
    ## License 
    This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details. 
    ## Acknowledgements 
-   - **Thesis Supervisors:** 
+   **Thesis Supervisors:** 
    - Prof. Dr. Mana Gharun 
    - Johannes Heisig
    - Prof. Dr. Marco Painho.  
-   - **University of Münster, Institute for Geoinformatics** 
-   - Thanks to the open-source community for tools such as [Streamlit](https://streamlit.io) and [leafmap](https://leafmap.org). 
+   **University of Münster, Institute for Geoinformatics** 
+   Thanks to the open-source community for tools such as [Streamlit](https://streamlit.io) and [leafmap](https://leafmap.org). 
