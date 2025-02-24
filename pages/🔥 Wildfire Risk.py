@@ -281,10 +281,10 @@ date = st.date_input("Select a Date", max_value=max_date)
 model_choice = st.selectbox("Select a Model", options=["RF", "LSTM"])
 
 # Load the corresponding model and set the appropriate data-preparation function
-if model_choice == "RF":
-    model = joblib.load('models/XR_RF_model.pkl')
-    prepare_data = prepare_data_mean  # Use RF-specific data preparation
-elif model_choice == "CNN":
+# if model_choice == "RF":
+#     model = joblib.load('models/XR_RF_model.pkl')
+#     prepare_data = prepare_data_mean  # Use RF-specific data preparation
+if model_choice == "CNN":
     model = load_model('models/XR_cnn_model_5.keras')
     prepare_data = prepare_data_mean # Use CNN-specific data preparation
 else:
