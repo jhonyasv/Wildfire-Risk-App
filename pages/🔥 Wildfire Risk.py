@@ -298,6 +298,7 @@ if "fire_risk_map" not in st.session_state:
     st.session_state.fire_risk_map = None
 
 st.subheader("Draw a rectangle on the Map")
+st.write("Select small areas to avoid processing memory issues")
 m = folium.Map(location=[-10, -60], zoom_start=4)
 folium.plugins.Draw(export=True).add_to(m)
 map_data = st_folium(m, width=700, height=500)
